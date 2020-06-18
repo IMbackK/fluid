@@ -1,7 +1,7 @@
 Source: liri-fluid
 Section: libs
 Priority: optional
-Maintainer: Uvos <carl@uvos.xyz>
+Maintainer: Uvos <devnull@uvos.xyz>
 Build-Depends:
  qtbase5-dev,
  qtbase5-dev-tools,
@@ -19,6 +19,7 @@ Build-Depends:
  liri-cmake-shared-dev,
  qdoc-qt5,
  libwayland-dev,
+ debhelper (>= 10),
 Standards-Version: 3.1.0
 
 Package: liri-fluid
@@ -40,6 +41,8 @@ Depends:
   qml-module-qtquick2,
   libqt5quickcontrols2-5,
   libqt5svg5,
-  libqt5waylandclient5
+  qml-module-qtquick-window2,
+  libqt5waylandclient5,
+  qml-module-qtgraphicaleffects,
 Description: Shared QML modules for lirios applications
 

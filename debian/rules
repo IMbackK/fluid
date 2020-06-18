@@ -2,7 +2,7 @@
 %:
 	dh $@
 
-CONFFLAGS+=-DINSTALL_QMLDIR=/usr/lib/$(DEB_HOST_MULTIARCH)/qt/qml
+CONFFLAGS+=-DINSTALL_QMLDIR=/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml
 
 override_dh_auto_test:
 	echo "skipping test"
